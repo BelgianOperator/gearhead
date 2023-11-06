@@ -1,0 +1,104 @@
+html {
+  overflow-x: hidden;
+  font-family: Arial;
+  text-align: center;
+  background-color: #222222;
+  color: #fffff0;
+}
+
+body {
+  margin: auto;
+}
+
+iframe {
+  margin: 0rem 0 3rem 0;
+  height: 30rem;
+  width: 25rem;
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 5rem 0rem 5rem 0rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  text-align: left;
+}
+
+h4 {
+  text-align: right;
+}
+
+a {
+  color: #00000f;
+  text-decoration: none;
+  font-weight: bold;
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.5rem;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+#one {
+  padding: 0rem 0rem 1.5rem 0rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  gap: 2rem;
+  margin: auto;
+}
+
+.panel {
+  background-color: #333333;
+  border-radius: 25px;
+}
+
+.panelTall {
+  background-color: #333333;
+  border-radius: 25px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.panelLong {
+  background-color: #333333;
+  border-radius: 25px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.subPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+  margin: auto;
+}
+
+.button {
+  background-color: #fffff0;
+  height: 4rem;
+  width: 12rem;
+  margin: auto;
+  border-radius: 10px;
+  line-height: 4rem;
+}
+
+.button:hover {
+  background-color: #5865f2;
+}
